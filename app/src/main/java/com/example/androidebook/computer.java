@@ -11,8 +11,8 @@ import android.widget.Button;
 import com.google.android.material.button.MaterialButton;
 
 public class computer extends AppCompatActivity {
-   Button b1;
-   MaterialButton m1,m2,m3,m4,m5;
+    Button b1;
+    MaterialButton m1,m2,m3,m4,m5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
