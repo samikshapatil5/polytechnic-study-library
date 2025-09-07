@@ -13,8 +13,7 @@ It provides **subject-wise categorized study material**, supports **offline read
 - 📂 **Download & Offline Reading**  
   Download once and read anytime without internet connectivity.
 
-- 🔍 **Search & Filter**  
-  Quickly find e-books by subject, title, or keyword.
+
 
 - 🎨 **Simple & User-friendly UI**  
   Clean interface built for students.
