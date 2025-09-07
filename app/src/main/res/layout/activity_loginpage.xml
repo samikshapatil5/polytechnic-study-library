@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFEFE"
+    tools:context=".Loginpage">
+
+    <AbsoluteLayout
+        android:layout_width="357dp"
+        android:layout_height="636dp"
+        android:layout_x="26dp"
+        android:layout_y="86dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="257dp"
+            android:layout_height="59dp"
+            android:layout_x="18dp"
+            android:layout_y="287dp"
+            android:background="@drawable/rectangle"
+            android:drawableLeft="@drawable/padlock"
+            android:ems="10"
+            android:hint=" Password"
+            android:inputType="textWebPassword"
+            android:paddingLeft="20dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="179dp"
+            android:layout_height="68dp"
+            android:layout_x="81dp"
+            android:layout_y="65dp"
+            android:fontFamily="@font/andika"
+            android:gravity="center"
+            android:shadowColor="#100F0F"
+            android:shadowDx="1"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="Welcome Back!"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="222dp"
+            android:layout_height="57dp"
+            android:layout_x="74dp"
+            android:layout_y="124dp"
+            android:text="Please Enter Your Details"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="257dp"
+            android:layout_height="59dp"
+            android:layout_x="18dp"
+            android:layout_y="196dp"
+            android:background="@drawable/rectangle"
+            android:drawableLeft="@drawable/email2"
+            android:elevation="20dp"
+            android:ems="10"
+            android:hint=" Email"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_x="33dp"
+            android:layout_y="510dp"
+            android:text="Don't have any account? Sign-up"
+            android:textSize="16sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_x="65dp"
+            android:layout_y="422dp"
+            android:backgroundTint="#C56060"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Login"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="50dp"
+            app:elevation="50dp"
+            app:rippleColor="#BDBDBD"
+            tools:ignore="HardcodedText" />
+
+
+    </AbsoluteLayout>
+
+</AbsoluteLayout>

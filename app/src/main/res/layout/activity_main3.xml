@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity3">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:backgroundTint="#E67D5C"
+        app:cardCornerRadius="10dp"
+
+        app:cardElevation="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="239dp"
+            android:background="@drawable/gradient">
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="140dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#9776E8"
+            app:cardCornerRadius="120dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/msbte"
+                android:importantForAccessibility="no" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="131dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="125dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="MSBTE"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/baloo_paaji"
+            android:gravity="center_horizontal"
+            android:text="E - Book"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ET"
+        android:layout_width="165dp"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="456dp"
+        app:cardBackgroundColor="#DBABEF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient2">
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="139dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:clickable="false"
+            android:focusable="false"
+
+            app:srcCompat="@drawable/electronic"
+            android:importantForAccessibility="no"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="95dp"
+            android:clickable="false"
+            android:focusable="false"
+
+            android:text="Electronics and Telecommunication"
+            android:textColor="#170245"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/comp"
+        android:layout_width="165dp"
+        android:layout_height="137dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="15dp"
+        app:cardBackgroundColor="#C9A8D6"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient2">
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:clickable="false"
+            android:focusable="false"
+
+            app:srcCompat="@drawable/computer"
+            tools:ignore="ContentDescription,ImageContrastCheck,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="95dp"
+            android:clickable="false"
+            android:focusable="false"
+
+            android:text="Computer Science"
+            android:textColor="#170245"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/civil"
+        android:layout_width="165dp"
+        android:layout_height="137dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="03dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toEndOf="@+id/comp"
+        app:cardBackgroundColor="#DBABEF"
+        app:cardCornerRadius="20dp"
+
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient2">
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/electrical"
+            android:layout_width="118dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="7dp"
+            android:clickable="false"
+            android:focusable="false"
+
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/civil"
+            tools:ignore="ImageContrastCheck" />
+
+
+        <TextView
+            android:layout_width="142dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="95dp"
+            android:clickable="false"
+            android:focusable="false"
+
+            android:text="Civil Engineering"
+            android:textColor="#170245"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/electric1"
+        android:layout_width="167dp"
+        android:layout_height="138dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toEndOf="@+id/ET"
+
+        app:cardBackgroundColor="#DBABEF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ObsoleteLayoutParam">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient2">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="95dp"
+                android:clickable="false"
+                android:focusable="false"
+
+                android:text="Electrical Engineering"
+                android:textColor="#170245"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="168dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:importantForAccessibility="no"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/elec" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Mech2"
+        android:layout_width="186dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="608dp"
+        app:cardBackgroundColor="#DBABEF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient2">
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="132dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="3dp"
+            android:clickable="false"
+            android:focusable="false"
+
+            app:srcCompat="@drawable/mech"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="86dp"
+            android:clickable="false"
+            android:focusable="false"
+
+            android:text="Mechanical Engineering "
+            android:textColor="#170245"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/black"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textViewCenter"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:backgroundTint="@color/white"
+            android:text="Select your Branch "
+            android:gravity="center"
+            android:textColor="#5E0C81"
+            android:textSize="22sp"
+            app:fontFamily="@font/artifika"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <!-- Other views in your layout -->
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+
+
+
+
