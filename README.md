@@ -68,32 +68,6 @@ apply plugin: 'com.google.gms.google-services'
 
 ---
 
-### 📱 Google Drive PDF Access
-
-1. Upload your PDFs to **Google Drive**.
-2. Make them **shareable**: “Anyone with the link can view”.
-3. Get the **file ID** from the link:
-
-```
-https://drive.google.com/file/d/FILE_ID/view
-```
-
-4. Convert it to a **direct download link**:
-
-```
-https://drive.google.com/uc?export=download&id=FILE_ID
-```
-
-5. Open PDF in your app using `android-pdf-viewer`:
-
-```java
-pdfView.fromUri(Uri.parse("https://drive.google.com/uc?export=download&id=FILE_ID"))
-       .enableSwipe(true)
-       .swipeHorizontal(false)
-       .load();
-```
-
-* Optional: Download for **offline reading**.
 
 ---
 
