@@ -13,10 +13,20 @@ It provides **subject-wise categorized study material**, supports **offline read
 - 📂 **Download & Offline Reading**  
   Download once and read anytime without internet connectivity.
 
-
+- 🔑 **Firebase Login & Signup**  
+  Secure authentication system powered by **Firebase Authentication**.
 
 - 🎨 **Simple & User-friendly UI**  
   Clean interface built for students.
+
+---
+
+## 🛠 Tech Stack
+
+- **Java** (Android app development)  
+- **Firebase Authentication** (Login & Signup)  
+- **Gradle (Kotlin DSL)** for build system  
+- **Android SDK**
 
 ---
 
@@ -31,7 +41,5 @@ Follow these steps to run the project locally:
 
 ### Steps
 1. Clone this repository:
-```bash
-   git clone https://github.com/samikshapatil5/polytechnic-study-library.git
    ```bash
    git clone https://github.com/samikshapatil5/polytechnic-study-library.git
