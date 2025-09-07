@@ -1,10 +1,10 @@
-## 📚 Polytechnic Study Library
+# 📚 Polytechnic Study Library
 
-The Polytechnic Study Library is an Android application designed specifically for Polytechnic students to easily access and manage e-books.
-It provides subject-wise categorized study material, supports accessing PDFs directly from Google Drive, and allows students to download materials for offline reading.
+The **Polytechnic Study Library** is an Android application designed specifically for **Polytechnic students** to easily access and manage e-books.  
+It provides **subject-wise categorized study material**, supports accessing PDFs directly from **Google Drive**, and allows students to **download materials for offline reading**.  
 With its clean and simple interface, the app ensures an effective and hassle-free learning experience.
----
 
+---
 ## ✨ Features
 
 * 📖 **Subject-wise categorized e-books**
