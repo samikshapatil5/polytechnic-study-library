@@ -70,6 +70,14 @@ apply plugin: 'com.google.gms.google-services'
 
 
 ---
+## 📱 Demo
+
+<img src="app/sampledata/App_Launch_Screen.jpg" width="250">
+<img src="app/sampledata/login.jpg" width="250">
+<img src="app/sampledata/Home_Page.jpg" width="250"> 
+<img src="app/sampledata/Semester_selection.jpg" width="250"> 
+<img src="app/sampledata/Subject_list.jpg" width="250"> 
+<img src="app/sampledata/book_pdf.jpg" width="250"> 
 
 ### 📚 Usage
 
